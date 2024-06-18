@@ -1,0 +1,15 @@
+.full-width-container {
+    width: 85.8vw; /* Set the width to 100% of the viewport width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide horizontal overflow */
+    height: 70vh; /* Set the height to 100% of the viewport height for vertical centering */
+  }
+  
+  .full-width-image {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+  
